@@ -1,5 +1,5 @@
 """
-Bivariate Implementation of the Gradient Descent Algorithm
+Single Variable Implementation of the Gradient Descent Algorithm
 
 Instance methods provided to set the learning rate (alpha), dataset, and maximum
 number of iterations to perform before exiting with a "No Converagence" exception.
@@ -7,7 +7,7 @@ Default alpha is set to 1, default max_iterations are set to 1000.
 """
 
 class GDSolver:
-    """Bivariate Implementation of the Gradient Descent Algorithm"""
+    """Single Variable Implementation of the Gradient Descent Algorithm"""
 
     def __init__(self):
         self.alpha = 0.01
