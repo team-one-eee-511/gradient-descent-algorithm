@@ -3,7 +3,7 @@
 ## Install
 1) Install anaconda
 
-2) Change directory to `gradient-descent-algorithm/`
+2) Clone this repo and change directory into to project root (`gradient-descent-algorithm/`)
 
 3) Create a new conda environment
     ```
@@ -20,11 +20,13 @@
     ```
 
 ## Test
-1) Simply change directory to the project root `gradient-descent-algorithm/` 
+1) Change directory to the project root `gradient-descent-algorithm/` 
+
 2) Make sure you have activated the conda enviornment with `pytest`
     ```
     activate gd_algorithm
     ```
+    
 3) Run the Pytest cli to execute the test in `gd_solver_test.py`
     ```
     pytest
