@@ -25,4 +25,19 @@
     ```
     activate gd_algorithm
     ```
-3) Run `pytest`.
+3) Run the Pytest cli to execute the test in `gd_solver_test.py`
+    ```
+    pytest
+    ```
+
+    eg. output:
+    ```
+    ============================= test session starts =============================
+    platform win32 -- Python 3.6.6, pytest-3.8.0, py-1.6.0, pluggy-0.7.1
+    rootdir: C:\Users\cccarmer\Documents\asu\EEE 511\code\gradient-descent-algorithm, inifile:
+    collected 3 items
+
+    gd_solver_test.py ...                                                    [100%]
+
+    ========================== 3 passed in 0.38 seconds ===========================
+    ```
