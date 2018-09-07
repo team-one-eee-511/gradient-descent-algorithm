@@ -1,6 +1,6 @@
 # Gradient Descent Algorithm Implementation
 
-## Instal
+## Install
 1) Install anaconda
 
 2) Change directory to `gradient-descent-algorithm/`
